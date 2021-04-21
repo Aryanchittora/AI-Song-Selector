@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SONG SELECTOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js" integrity="sha512-wM+t5MzLiNHl2fwT5rWSXr2JMeymTtixiw2lWyVk1JK/jDM4RBSFoH4J8LjucwlDdY6Mu84Kj0gPXp7rLGaDyA==" crossorigin="anonymous"></script>
+</head>
+<body background="background.gif"> 
+    <div class="container-fluid">
+        <center>
+            <h3 class="btn btn-primary head">AI SONG SELECTOR</h3>
+            <hr>
+            <br>
+
+            <div class="song">
+                <img src="woofer.gif">
+                <br>
+                <h4 id="song_status" class="btn btn-danger">&nbsp; 1st Song &nbsp;</h4>
+            </div>
+
+            <div class="song2">
+                <img src="woofer.gif">
+                <br>
+                <h4 id="song_status2" class="btn btn-danger">&nbsp; 2st Song &nbsp;</h4>
+            </div>
+
+            <button onclick="play()" class="btn btn-primary play">Play</button>
+        </center>
+    </div>
+
+    <div id="footer">
+        Developed By - Aryan Chitora
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

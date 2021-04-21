@@ -1,0 +1,72 @@
+body {
+    background-size: cover;
+}
+.head {
+    font-family: 'Kaushan Script',cursive;
+    font-size: 23px !important;
+    width: 20%;
+    box-shadow: 0px 0px 8px darkblue;
+    text-shadow: 0px 0px 7px lightblue;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    from {background-color: #337ab7;}
+    to {background-color: lightsteelblue;}
+    from {color: white;}
+    to {color: #3a7ab3;}
+    from {box-shadow: 0px 0px 8px darkblue;}
+    to {box-shadow: 0px 0px 8px skyblue;}
+    from {text-shadow: 0px 0px 7px skyblue;}
+    to {text-shadow: 0px 0px 7px steelblue;}
+}
+
+.song {
+    float: left;
+    margin-left: 5px;
+}
+.song img , .song2 img {
+    width: 150px;
+}
+.song2 {
+    float: right;
+    margin-right: 5px;
+}
+
+#song_status , #song_status2 {
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.play {
+    font-family: 'Lobster Two',cursive;
+    font-size: 24px !important;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 5px 10px skyblue;
+    text-shadow: 0px 0px 5px skyblue;
+    width: 150px
+}
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 3;
+    background-color: tomato;
+    color: white;
+    text-shadow: 0px 0px 5px skyblue;
+}
+
+canvas {
+    border: 5px solid;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: 200px;
+    border-left-color: azure;
+    border-right-color: whitesmoke;
+    border-bottom-color: azure;
+    border-top-color: whitesmoke;
+    box-shadow: 0px 0px 35px tomato;
+}
